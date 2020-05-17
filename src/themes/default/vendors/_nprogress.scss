@@ -1,0 +1,8 @@
+@import '../variables/index';
+@import '~nprogress/nprogress.css';
+
+#nprogress {
+  .bar {
+    background: $--color-primary;
+  }
+}

@@ -1,0 +1,60 @@
+@import '~element-ui/packages/theme-chalk/src/index';
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.el-message {
+  top: 30px !important;
+}
+
+.el-form {
+  .el-card {
+    margin-bottom: 20px;
+
+    .el-card__header {
+      padding: 10px 20px;
+    }
+
+    .el-card__body {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.el-table {
+  .el-table__expanded-cell > div.cell-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 15px 5px 0;
+    min-width: 30%;
+  }
+
+  th.el-table-column--selection .cell {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+.el-pagination-wrapper {
+  padding-top: 10px;
+
+  &.is-top-pagination {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.el-pagination {
+  text-align: center;
+}
+
+.el-pagination__editor > input {
+  width: 100px;
+}

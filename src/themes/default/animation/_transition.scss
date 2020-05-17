@@ -1,0 +1,21 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.collapse-enter-active,
+.collapse-leave-active {
+  transition: all 0.5s;
+}
+
+.collapse-enter,
+.collapse-leave-to {
+  opacity: 0;
+  transform: scaleY(0.1);
+  transform-origin: top;
+}

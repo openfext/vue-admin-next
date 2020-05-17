@@ -1,0 +1,71 @@
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+
+  100% {
+    background-position: 1200px 0;
+  }
+}
+
+.app-placeholder {
+  .placeholder {
+    position: static;
+    overflow: hidden;
+    animation: placeholderShimmer 2s linear;
+    animation-iteration-count: infinite;
+    background-color: #fff;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.08) 0,
+      rgba(0, 0, 0, 0.15) 15%,
+      rgba(0, 0, 0, 0.08) 30%
+    );
+    background-size: 1200px 100%;
+    // max-width: 30rem;
+
+    .line {
+      margin-bottom: 0.5em;
+      position: relative;
+      height: 0.85714286em;
+      background-color: #fff;
+
+      &:before,
+      &:after {
+        height: 0.5em;
+        top: 100%;
+        position: absolute;
+        content: '';
+        background-color: #fff;
+      }
+
+      &:before {
+        left: 0;
+      }
+
+      &:after {
+        right: 0;
+      }
+
+      &:nth-child(5n + 1):after {
+        width: 0%;
+      }
+
+      &:nth-child(5n + 2):after {
+        width: 50%;
+      }
+
+      &:nth-child(5n + 3):after {
+        width: 20%;
+      }
+
+      &:nth-child(5n + 4):after {
+        width: 35%;
+      }
+
+      &:nth-child(5n + 5):after {
+        width: 65%;
+      }
+    }
+  }
+}

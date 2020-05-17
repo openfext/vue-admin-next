@@ -1,0 +1,84 @@
+@import '../variables/index';
+
+.app-basic-form.el-form {
+  .el-form-item {
+    .el-input,
+    .el-textarea {
+      width: 360px;
+    }
+
+    .el-input-number {
+      .el-input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.app-form-action {
+  margin-top: 20px;
+
+  .el-button,
+  .app-form-action-btn {
+    width: 200px;
+    font-size: 16px;
+  }
+}
+
+.app-form-tip {
+  font-size: 12px;
+  line-height: 12px;
+  padding-top: 10px;
+  color: #737373;
+}
+
+.app-form-error-wrapper {
+  height: 44px;
+}
+
+.form-error-transition-enter-active,
+.form-error-transition-leave-active {
+  transition: all 0.5s;
+}
+
+.form-error-transition-enter,
+.form-error-transition-leave-to {
+  height: 0;
+  opacity: 0;
+}
+
+.app-form-error {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #fdf5ee;
+  border: 1px solid #f7bf8d;
+  white-space: nowrap;
+  color: #333;
+  border-radius: $--border-radius-base;
+  font-size: 13px;
+  line-height: 1.5;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: 6px dashed transparent;
+  }
+
+  &:before {
+    top: -13px;
+    border-bottom: 6px dashed #f7bf8d;
+  }
+
+  &:after {
+    top: -12px;
+    border-bottom: 6px dashed #fdf5ee;
+  }
+}
