@@ -151,7 +151,7 @@ export default {
           });
 
           this.$closeView().then(() => {
-            this.$router.push('/examples');
+            this.$router.push('/table/basic/query');
           });
         } catch (err) {
           this.$message({
