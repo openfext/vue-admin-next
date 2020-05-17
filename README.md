@@ -1,6 +1,6 @@
 # Vue Admin Next
 
-Enterprise application with **Multi-Module Design**, **Vue Composition API** and **Friendly User Interface.**. Now is ready for production environment.
+Enterprise application with **Multi-Module Design**, **Vue Composition API** and **Friendly User Interface**. Now is ready for production environment.
 
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
 
