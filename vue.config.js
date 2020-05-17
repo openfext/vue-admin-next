@@ -3,8 +3,9 @@ const path = require('path');
 const isProdMode = process.env.NODE_ENV === 'production';
 
 const config = {
+  publicPath: isProdMode ? '/vue-admin-next' : '/',
   css: {},
-  filenameHashing: false
+  filenameHashing: true
 };
 
 if (!isProdMode) {
@@ -16,8 +17,8 @@ config.chainWebpack = webpackConfig => {};
 config.configureWebpack = () => ({
   entry: path.resolve(__dirname, 'src/index.js'),
   output: {
-    filename: `js/[name].js`,
-    chunkFilename: `js/[name].js`
+    filename: `js/[name].[hash].js`,
+    chunkFilename: `js/[name].[hash].js`
   }
 });
 
