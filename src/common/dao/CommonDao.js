@@ -2,11 +2,19 @@ import Dao from '@/base/dao';
 
 class CommonDao extends Dao {
   async login(options = {}) {
+    const { data = {} } = options;
+
     return this.delay(1000)
       .then(() => {
-        return {
-          code: 'SUCCESS'
-        };
+        if (data.username === 'admin' && data.password === '123456') {
+          return {
+            code: 'SUCCESS'
+          };
+        } else {
+          return {
+            code: 'ERROR'
+          };
+        }
       })
       .then(this.checkCode);
   }

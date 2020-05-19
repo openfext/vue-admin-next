@@ -17,7 +17,7 @@ const afterEachHooks = [PageTitle(store)];
 
 const router = new Router({
   config: {
-    mode: 'history',
+    mode: 'hash',
     base: process.env.BASE_URL || '/',
     routes: routes
   },

@@ -114,7 +114,6 @@
 
 <script>
 import { mapActions, mapState, mapGetters } from 'vuex';
-import { CommonUtil } from '@/common/utils';
 import defaultAvatarImg from '@/static/images/avatar.png';
 import AppDrawer from './AppDrawer';
 
@@ -176,7 +175,7 @@ export default {
 
     logout() {
       this.removeGlobalAppData().then(() => {
-        CommonUtil.gotoLoginURL();
+        this.$router.push('/login');
       });
     }
   }

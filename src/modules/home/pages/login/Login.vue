@@ -90,7 +90,10 @@ export default {
     userLoginData() {
       const { username, password } = this;
 
-      return `username=${username}&password=${password}`;
+      return {
+        username,
+        password
+      };
     }
   },
 

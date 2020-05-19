@@ -1,10 +1,10 @@
 <template>
   <div class="app-layout-aside">
     <div class="app-layout-aside-logo">
-      <a href="/">
+      <router-link to="/">
         <img :src="logoImg" />
         <h1>{{ ui.appName }}</h1>
-      </a>
+      </router-link>
     </div>
     <el-menu
       :default-active="currentNav"

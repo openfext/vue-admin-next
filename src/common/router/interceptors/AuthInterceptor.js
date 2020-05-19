@@ -4,9 +4,7 @@ export default function AuthInterceptor(store) {
       if (store.getters.isLoginedUser) {
         next();
       } else {
-        // next('/login');
-        window.location.href = '/login';
-        next(false);
+        next('/login');
       }
     };
 
