@@ -176,7 +176,7 @@ export default {
 
     logout() {
       this.removeGlobalAppData().then(() => {
-        CommonUtil.gotoLoginUrl(window.location.href);
+        CommonUtil.gotoLoginURL();
       });
     }
   }

@@ -18,12 +18,32 @@ const CommonUtil = {
     return state;
   },
 
-  gotoUrl(url) {
+  joinURL(baseURL = '', url = '') {
+    const len = baseURL.length;
+
+    if (!len) {
+      return url;
+    }
+
+    if (baseURL[len - 1] === '/') {
+      baseURL = baseURL.slice(0, len - 1);
+    }
+
+    return baseURL + url;
+  },
+
+  gotoURL(url) {
     window.location.href = url;
   },
 
-  gotoLoginUrl(from = '') {
-    CommonUtil.gotoUrl(`/login?url=${from}`);
+  gotoPath(path) {
+    const url = CommonUtil.joinURL(process.env.BASE_URL, path);
+
+    CommonUtil.gotoURL(url);
+  },
+
+  gotoLoginURL(from = '') {
+    CommonUtil.gotoPath(`/login?url=${from}`);
   }
 };
 
