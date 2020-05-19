@@ -6,8 +6,7 @@ const CONFIG = {
   auth_prefix: 'AUTH_',
   action_prefix: 'AUTH_action_',
   alias_prefix: 'AUTH_alias_',
-  nav_prefix: 'AUTH_nav_',
-  channel_prefix: 'AUTH_channel_'
+  nav_prefix: 'AUTH_nav_'
 };
 
 class AuthService extends Service {
@@ -31,79 +30,52 @@ class AuthService extends Service {
     return this.authList || [];
   }
 
-  getAuthItems(auth, comparer) {
+  getAuthItems(auth, compare) {
     const list = this.getAuthList();
+
     if (!list) {
       return;
     }
-    comparer =
-      comparer ||
-      function(item, auth) {
-        return item.substr(0, auth.length) === auth;
-      };
-    return list.filter(function(item) {
-      return comparer(item, auth);
-    });
-  }
 
-  findAuthItems(auth, comparer) {
-    comparer =
-      comparer ||
-      function(item, auth) {
-        return item.indexOf(auth) > -1;
-      };
-    return this.getAuthItems(auth, comparer);
-  }
+    if (!compare) {
+      compare = (item, prefix) => item.startsWith(prefix);
+    }
 
-  getChannelList() {
-    const prefix = CONFIG.channel_prefix;
-    return this.getAuthItems(prefix).filter(function(item) {
-      return Number(item.indexOf(prefix.length)) >= 0;
-    });
+    return list.filter(item => compare(item, auth));
   }
 
   getURIList() {
     const prefix = CONFIG.uri_prefix;
-    return this.getAuthItems(prefix).filter(function(item) {
-      return item.indexOf(prefix) === 0;
-    });
+    return this.getAuthItems(prefix);
   }
 
   getNavList() {
     const prefix = CONFIG.nav_prefix;
-    return this.getAuthItems(prefix).filter(function(item) {
-      return item.indexOf(prefix) === 0;
-    });
+    return this.getAuthItems(prefix);
   }
 
   getAliasList() {
     const prefix = CONFIG.alias_prefix;
-    return this.getAuthItems(prefix).filter(function(item) {
-      return item.indexOf(prefix) === 0;
-    });
+    return this.getAuthItems(prefix);
   }
 
   getActionList() {
     const prefix = CONFIG.action_prefix;
-    return this.getAuthItems(prefix).filter(function(item) {
-      return item.indexOf(prefix) === 0;
-    });
+    return this.getAuthItems(prefix);
   }
 
   hasAuth(auth) {
-    return (
-      this.getAuthItems(auth, function(item, auth) {
-        return item === auth;
-      }).length > 0
-    );
+    return !!this.getAuthItems(auth, (item, auth) => item === auth).length;
   }
 
   hasAuthByPerfix(id, prefix, list) {
     prefix = prefix || CONFIG.auth_prefix;
     list = list || this.getAuthItems(prefix);
+
     if (!list) {
       return;
     }
+
     let result = false;
     list.forEach(function(item) {
       if (item.substr(prefix.length) === String(id)) {
@@ -130,14 +102,6 @@ class AuthService extends Service {
       action,
       CONFIG.action_prefix,
       this.getActionList()
-    );
-  }
-
-  hasChannel(id) {
-    return this.hasAuthByPerfix(
-      id,
-      CONFIG.channel_prefix,
-      this.getChannelList()
     );
   }
 
