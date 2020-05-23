@@ -14,7 +14,7 @@ npm run serve
 
 ## Example
 
-[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next)
+[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
 
 ![Screen Capture](.github/preview.png)
 
