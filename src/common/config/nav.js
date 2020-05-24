@@ -45,6 +45,16 @@ const nav = [
             path: '/form/basic/100271'
           }
         ]
+      },
+      {
+        key: 'form-builder',
+        name: '动态表单',
+        links: [
+          {
+            name: '表单生成器',
+            path: '/form/form-builder'
+          }
+        ]
       }
     ]
   },

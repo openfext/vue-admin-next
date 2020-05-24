@@ -30,6 +30,7 @@
     "consola": "^2.11.0",
     "copy-text-to-clipboard": "^2.1.1",
     "core-js": "^3.3.2",
+    "element-form-builder": "^2.0.0",
     "element-ui": "^2.12.0",
     "json2csv": "^4.5.4",
     "lodash": "^4.17.15",
