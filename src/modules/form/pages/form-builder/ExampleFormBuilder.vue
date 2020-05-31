@@ -31,9 +31,9 @@
     <el-dialog title="提交结果" :visible.sync="showResultModal" width="80%">
       <pre>{{ JSON.stringify(formValues, null, 4) }}</pre>
       <span slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="showResultModal = false"
-          >确 定</el-button
-        >
+        <el-button type="primary" @click="showResultModal = false">
+          确 定
+        </el-button>
       </span>
     </el-dialog>
   </div>
@@ -49,8 +49,8 @@
 
 <script>
 import { useForm, useLoading } from '@fext/vue-use';
-import { createFormBuilder } from 'element-form-builder';
-import { ElFormAdaptor } from 'element-form-builder/lib/adaptor/element';
+import { createFormBuilder } from '@fext/vue-form-builder';
+import { ElFormAdaptor } from '@fext/vue-form-builder/lib/adaptor/element';
 import ExampleFormComponents from './components';
 
 export default {
