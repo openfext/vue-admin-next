@@ -22,7 +22,18 @@
           </el-form>
         </el-col>
         <el-col :span="12" :xs="24">
-          <el-card header="表单配置" class="form-builder-card">
+          <el-card class="form-builder-card">
+            <template slot="header">
+              <span>表单配置</span>
+              <span>
+                <a
+                  href="https://github.com/openfext/vue-form-builder"
+                  target="_blank"
+                >
+                  参考文档
+                </a>
+              </span>
+            </template>
             <el-input type="textarea" v-model="formConfigJSON" rows="45" />
           </el-card>
         </el-col>

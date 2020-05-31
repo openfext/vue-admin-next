@@ -24,7 +24,7 @@
   "author": "felixpy.1993@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "@fext/vue-form-builder": "^2.0.2",
+    "@fext/vue-form-builder": "^2.1.0",
     "@fext/vue-use": "^0.1.1",
     "@vue/composition-api": "^0.5.0",
     "axios": "^0.19.0",

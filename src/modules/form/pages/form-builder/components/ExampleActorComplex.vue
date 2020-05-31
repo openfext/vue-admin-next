@@ -33,13 +33,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-.el-select {
-  ::v-deep .el-input {
-    width: 100px;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
 
 <script>
 import { useFormElement } from '@fext/vue-use';
