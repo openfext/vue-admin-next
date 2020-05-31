@@ -3,6 +3,7 @@
 Enterprise application with **Multi-Module Design**, **Vue Composition API** and **Friendly User Interface**. Now is ready for production environment.
 
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-admin-next)
 
 ## Quick Start
 
