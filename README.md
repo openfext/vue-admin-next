@@ -19,7 +19,22 @@ npm run serve
 
 ![Screen Capture](.github/preview.png)
 
+## Features
+
+- ✨Vue Composition API
+- ✨Multi-Module Design
+- ✨Friendly User Interface
+- ✨Best Practices
+
 ## Docs
+
+### Chinese
+
+- [Introduction](https://openfext.github.io/docs/zh/vue-admin-next/intro.html)
+- [Guide](https://openfext.github.io/docs/zh/vue-admin-next/guide/start.html)
+- [API Reference](https://openfext.github.io/docs/zh/vue-admin-next/api/component.html)
+
+### English
 
 WIP...
 
