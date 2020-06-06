@@ -15,7 +15,7 @@
         <a
           class="app-layout-header-menu-item"
           target="_blank"
-          href="https://github.com/openfext/vue-admin-next"
+          href="https://openfext.github.io/docs/zh/vue-admin-next/intro.html"
         >
           <i class="el-icon-help"></i>
         </a>
@@ -29,16 +29,15 @@
           <span>{{ user.name }}</span>
         </span>
         <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item disabled icon="el-icon-user">
-            个人中心
-          </el-dropdown-item>
+          <el-dropdown-item disabled icon="el-icon-user"
+            >个人中心</el-dropdown-item
+          >
           <el-dropdown-item
             divided
             command="logout"
             icon="el-icon-switch-button"
+            >退出登录</el-dropdown-item
           >
-            退出登录
-          </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
       <span class="app-layout-header-menu-item" @click="openDrawer">
