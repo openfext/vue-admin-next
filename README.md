@@ -28,13 +28,13 @@ npm run serve
 
 ## Docs
 
-### Chinese
+### 🇨🇳 Chinese
 
 - [Introduction](https://openfext.github.io/docs/zh/vue-admin-next/intro.html)
 - [Guide](https://openfext.github.io/docs/zh/vue-admin-next/guide/start.html)
 - [API Reference](https://openfext.github.io/docs/zh/vue-admin-next/api/component.html)
 
-### English
+### 🇺🇸 English
 
 WIP...
 
