@@ -27,7 +27,7 @@
               <span>表单配置</span>
               <span>
                 <a
-                  href="https://github.com/openfext/vue-form-builder"
+                  href="https://openfext.github.io/docs/zh/vue-form-builder/config/schema.html"
                   target="_blank"
                 >
                   参考文档
