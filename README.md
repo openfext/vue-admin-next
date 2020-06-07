@@ -5,27 +5,6 @@ Professional enterprise application with **Multi-Module Design**, **Vue Composit
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-admin-next)
 
-## Quick Start
-
-```bash
-git clone https://github.com/openfext/vue-admin-next.git
-npm install
-npm run serve
-```
-
-## Example
-
-[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
-
-![Screen Capture](.github/preview.png)
-
-## Features
-
-- ✨Vue Composition API
-- ✨Multi-Module Design
-- ✨Friendly User Interface
-- ✨Best Practices
-
 ## Docs
 
 ### 🇨🇳 Chinese
@@ -37,6 +16,27 @@ npm run serve
 ### 🇺🇸 English
 
 WIP...
+
+## Example
+
+[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
+
+![Screen Capture](.github/preview.png)
+
+## Quick Start
+
+```bash
+git clone https://github.com/openfext/vue-admin-next.git
+npm install
+npm run serve
+```
+
+## Features
+
+- ✨Vue Composition API
+- ✨Multi-Module Design
+- ✨Friendly User Interface
+- ✨Best Practices
 
 ## Built With
 

@@ -14,6 +14,12 @@
               <a href="https://github.com/openfext/vue-admin-next">
                 源码地址
               </a>
+              <span> / </span>
+              <a
+                href="https://openfext.github.io/docs/zh/vue-admin-next/guide/start.html"
+              >
+                参考文档
+              </a>
             </p>
           </div>
         </el-card>
