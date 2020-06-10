@@ -37,14 +37,14 @@ Vue Admin Next 是一套针对中后台应用场景的企业级 Web 应用脚手
 
 - [自定义布局](https://openfext.github.io/docs/vue-admin-next/guide/layout.html)
 - [个性化主题](https://openfext.github.io/docs/vue-admin-next/guide/theme.html)
+- [文件组织](https://openfext.github.io/docs/vue-admin-next/guide/module-files.html)
 - [导航配置](https://openfext.github.io/docs/vue-admin-next/guide/navigation.html)
 - [路由配置](https://openfext.github.io/docs/vue-admin-next/guide/router.html)
-- [文件组织](https://openfext.github.io/docs/vue-admin-next/guide/module-files.html)
 - [插件注册](https://openfext.github.io/docs/vue-admin-next/guide/plugin.html)
 - [数据处理](https://openfext.github.io/docs/vue-admin-next/guide/dataflow.html)
 - [用户权限](https://openfext.github.io/docs/vue-admin-next/guide/user.html)
-- [列表指南](https://openfext.github.io/docs/vue-admin-next/guide/table.html)
 - [表单指南](https://openfext.github.io/docs/vue-admin-next/guide/form.html)
+- [列表指南](https://openfext.github.io/docs/vue-admin-next/guide/table.html)
 
 ## 参考文档
 
