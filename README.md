@@ -37,9 +37,9 @@ Professional enterprise application with **Vue Composition API**, **Multi-Module
 
 ### 🇨🇳 Chinese
 
-- [Introduction](https://openfext.github.io/docs/zh/vue-admin-next/intro.html)
-- [Guide](https://openfext.github.io/docs/zh/vue-admin-next/guide/start.html)
-- [API Reference](https://openfext.github.io/docs/zh/vue-admin-next/api/component.html)
+- [Introduction](https://openfext.github.io/docs/vue-admin-next/intro.html)
+- [Guide](https://openfext.github.io/docs/vue-admin-next/guide/start.html)
+- [API Reference](https://openfext.github.io/docs/vue-admin-next/api/component.html)
 
 ### 🇺🇸 English
 
