@@ -1,9 +1,37 @@
 # Vue Admin Next
 
-Professional enterprise application with **Multi-Module Design**, **Vue Composition API** and **Friendly User Interface**. Now is ready for production environment.
+Professional enterprise application with **Vue Composition API**, **Multi-Module Design**, **Data Processing Flow**, and **Friendly User Interface**. Now is ready for production environment.
+
+> **Note**: When the official version of Vue 3.0 is released, this project will be migrated as soon as possible!
 
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-admin-next)
+
+:us: English | [:cn: 简体中文](README.zh-CN.md)
+
+## Features
+
+- ✨Vue Composition API
+- ✨Multi-Module Design
+- ✨Data Processing Flow
+- ✨Friendly User Interface
+- ✨Best Practices
+
+## Example
+
+[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
+
+![Screen Capture](.github/preview.png)
+
+## Quick Start
+
+### From Template
+
+[⚡ Generate Vue Admin Next](https://github.com/openfext/vue-admin-next/generate)
+
+### Fork
+
+[⚡ Fork Repository](https://github.com/openfext/vue-admin-next/fork)
 
 ## Docs
 
@@ -17,26 +45,21 @@ Professional enterprise application with **Multi-Module Design**, **Vue Composit
 
 WIP...
 
-## Example
+## Contacts
 
-[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
+Welcome to join the group chat to discuss project issues and front-end technologies 💬
 
-![Screen Capture](.github/preview.png)
+### QQ
 
-## Quick Start
+ChatID: 667576147
 
-```bash
-git clone https://github.com/openfext/vue-admin-next.git
-npm install
-npm run serve
-```
+![QQGroupQRCode](https://user-images.githubusercontent.com/2902215/84306575-3e785280-ab8e-11ea-8c53-af8620b5cc69.JPG)
 
-## Features
+### WeChat Group
 
-- ✨Vue Composition API
-- ✨Multi-Module Design
-- ✨Friendly User Interface
-- ✨Best Practices
+Add the author's WeChat to get into the group:
+
+![WeChatQRCode](https://user-images.githubusercontent.com/2902215/84306570-3c15f880-ab8e-11ea-9041-8ea4ccbaa772.JPG)
 
 ## Built With
 
