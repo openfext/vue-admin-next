@@ -5,7 +5,10 @@ Professional enterprise application with **Vue Composition API**, **Multi-Module
 > **Note**: When the official version of Vue 3.0 is released, this project will be migrated as soon as possible!
 
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
+![GitHub Releases)](https://img.shields.io/github/v/release/openfext/vue-admin-next?include_prereleases&style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/openfext/vue-admin-next?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-admin-next)
+![GitHub Forks](https://img.shields.io/github/forks/openfext/vue-admin-next?style=flat-square)
 
 :us: English | [:cn: 简体中文](README.zh-CN.md)
 
@@ -17,21 +20,21 @@ Professional enterprise application with **Vue Composition API**, **Multi-Module
 - ✨Friendly User Interface
 - ✨Best Practices
 
-## Example
-
-[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
-
-![Screen Capture](.github/preview.png)
-
 ## Quick Start
+
+### Fork
+
+[⚡ Fork Repository](https://github.com/openfext/vue-admin-next/fork)
 
 ### From Template
 
 [⚡ Generate Vue Admin Next](https://github.com/openfext/vue-admin-next/generate)
 
-### Fork
+## Example
 
-[⚡ Fork Repository](https://github.com/openfext/vue-admin-next/fork)
+[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
+
+![Screen Capture](.github/preview.png)
 
 ## Docs
 

@@ -5,7 +5,10 @@ Vue Admin Next 是一套针对中后台应用场景的企业级 Web 应用脚手
 **提示**：当 Vue 3.0 正式版发布后，该项目会第一时间进行支持！
 
 ![GitHub](https://img.shields.io/github/license/openfext/vue-admin-next?style=flat-square)
+![GitHub Releases)](https://img.shields.io/github/v/release/openfext/vue-admin-next?include_prereleases&style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/openfext/vue-admin-next?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-admin-next)
+![GitHub Forks](https://img.shields.io/github/forks/openfext/vue-admin-next?style=flat-square)
 
 :cn: 简体中文 | [:us: English](README.md)
 
@@ -17,21 +20,21 @@ Vue Admin Next 是一套针对中后台应用场景的企业级 Web 应用脚手
 - ✨ 简洁的用户界面
 - ✨ 中后台应用开发的最佳实践
 
-## 在线示例
-
-[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
-
-![Screen Capture](.github/preview.png)
-
 ## 快速开始
+
+### Fork
+
+[⚡ Fork 仓库](https://github.com/openfext/vue-admin-next/fork)
 
 ### 模板
 
 [⚡ 生成 Vue Admin Next 项目](https://github.com/openfext/vue-admin-next/generate)
 
-### Fork
+## 在线示例
 
-[⚡ Fork 仓库](https://github.com/openfext/vue-admin-next/fork)
+[Vud Admin Next Preview](https://openfext.github.io/vue-admin-next/#/table/basic/query)
+
+![Screen Capture](.github/preview.png)
 
 ## 指南
 
