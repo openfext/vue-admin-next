@@ -11,11 +11,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && git add . && lint-staged",
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ],
     "*.{json,css,scss,md}": [
       "prettier --write",
       "git add"
